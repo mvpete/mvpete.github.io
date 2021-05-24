@@ -1,4 +1,4 @@
 
 
-# Oh -- hey there. I'm Peter.
-## I <3 Code.
+# Hi. I'm Peter.
+### I love programming.
