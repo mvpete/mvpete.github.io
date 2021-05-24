@@ -20,12 +20,11 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <p>Projects</p>
+        <h4>Repositories</h4>
         <ul>
-            <li>[ASPeKT]</li>
-            <li>Simpl</li>
-            <li>CPP Unit Test</li>
-            <li>fuss</li>
+            {% for item in site.github.public_repositories %}
+            <li>{{item}}</li>
+            {% endfor %}
         </ul>
         
       </header>
