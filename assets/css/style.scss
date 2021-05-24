@@ -1,6 +1,7 @@
 @import "{{ site.theme }}";
 
-html 
-{
-    background:'black';
-}
+.main-content {
+    h1 {
+     color: #ff0000;
+   }
+  }
